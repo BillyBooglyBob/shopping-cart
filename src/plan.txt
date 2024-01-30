@@ -1,0 +1,42 @@
+home page
+shopping page
+cart page
+
+navigation bar
+- left of all 3 pages
+- lists the 3 pages
+- page active is highlighted in the bar
+
+routes
+- root
+    - children
+        - home 
+        - shopping
+        - cart
+
+root
+- states
+    - cart
+        - name
+        - amount
+        - image
+- display
+    - navigation bar
+    - cart
+        - counts
+
+home 
+- item gallery
+
+shopping (setCart)
+- cards of items
+    - API fetch random items of 20
+    - amount
+        - add
+        - number
+        - subtract
+    - description
+
+cart (cart, setCart)
+- list of cart items 
+    - remove button next to each
